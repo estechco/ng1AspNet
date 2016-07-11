@@ -1,0 +1,50 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.pas" Inherits="ng1AspNet._Default" %>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+
+    <script src="//code.angularjs.org/1.4.8/angular.min.js"></script>
+    <script src="//code.angularjs.org/1.4.8/angular-route.min.js"></script>
+    <script src="//code.angularjs.org/1.4.8/angular-resource.min.js"></script>
+    <script src="//code.angularjs.org/1.4.8/angular-animate.min.js"></script>
+    <script src="//code.angularjs.org/1.4.8/angular-aria.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <header>
+          <div class="header">
+            The header goes here
+          </div>
+        </header>
+
+        <hr />
+
+        <div>
+            <asp:ContentPlaceHolder ID="cphMain" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer>
+            <hr />
+            <div class="footer">
+              The footer goes here
+            </div>
+            <asp:ContentPlaceHolder ID="cphFooter" runat="server">
+            </asp:ContentPlaceHolder>
+        </footer>
+
+    </form>
+</body>
+</html>
