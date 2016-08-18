@@ -1,0 +1,22 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{656346D9-4656-40DA-A068-22D5425D4639}") = "ng1AspNet", "ng1AspNet.elements", "{4F02A9BA-AE25-4228-947B-1A53852025EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F02A9BA-AE25-4228-947B-1A53852025EF}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{4F02A9BA-AE25-4228-947B-1A53852025EF}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{4F02A9BA-AE25-4228-947B-1A53852025EF}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{4F02A9BA-AE25-4228-947B-1A53852025EF}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
